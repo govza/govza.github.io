@@ -1,0 +1,13 @@
+{
+    "extends": "./.nuxt/tsconfig.json",
+    "compilerOptions": {
+        "strict": true,
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "skipLibCheck": true, // Ignores type-checking in node_modules
+        "types": []
+    },
+    "exclude": ["node_modules"]
+}
